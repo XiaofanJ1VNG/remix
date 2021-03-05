@@ -1,0 +1,13 @@
+@use postcss-nested;
+@use postcss-simple-vars;
+*, *:before, *:after {
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+.flex{
+  display: flex;
+  min-height: 100vh;
+  align-items: space-around;
+  justify-content: space-between;
+flex-wrap: wrap}
